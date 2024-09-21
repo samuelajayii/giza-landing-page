@@ -4,7 +4,7 @@ import { faQuoteLeft, faStar } from '@fortawesome/free-solid-svg-icons';
 
 const Card = (props) => {
     return (
-        <div className='p-6 flex flex-col gap-4 bg-white rounded-md w-[35%]'>
+        <div className='p-6 flex flex-col gap-4 bg-white rounded-md lg:w-[35%]'>
             <FontAwesomeIcon icon={faQuoteLeft} className='text-[#EC7D22] self-start' />
             <p className='text-[#808080] text-base'>{props.text}</p>
             <div className='flex justify-between items-center'>

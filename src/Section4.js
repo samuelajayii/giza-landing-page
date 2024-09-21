@@ -6,9 +6,9 @@ import pic4 from './img/4.svg'
 
 const Section4 = () => {
     return (
-        <div className='px-[70px] py-[60px] flex items-center flex-col justify-center'>
-            <div className='flex items-center justify-center flex-col gap-4 w-[640px] mb-10'>
-                <h1 className='text-[39px]'>Interior Design Inspirations</h1>
+        <div className='lg:px-[70px] px-5 py-[60px] flex items-center flex-col justify-center'>
+            <div className='flex items-center justify-center flex-col gap-4 lg:w-[640px] mb-10'>
+                <h1 className='text-[39px] text-center'>Interior Design Inspirations</h1>
                 <h1 className='text-center text-[20px] text-[#808080]'>Every home needs a comfortable and friendly atmosphere. Our designers already came up with 100+ ideas of arrangements that might inspire you.</h1>
             </div>
 
