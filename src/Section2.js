@@ -1,8 +1,9 @@
 import React from 'react';
+import image from './img/rectangle 2.svg'
 
 const Section2 = () => {
     return (
-        <div className='flex flex-col lg:flex-row px-[70px] lg:h-[690px] py-[40px] lg:gap-28 items-center justify-between'>
+        <div className='flex flex-col px-[70px] '>
             <div className='flex items-center justify-between'>
                 <div>
                     <span className='flex flex-row items-center gap-2 mb-4'>
@@ -14,14 +15,16 @@ const Section2 = () => {
                 </div>
                 <p className='text-[#808080] w-[50vw]'>We believe that good design should be eye catching and comfortable. For this reason, we collaborate with the best designers to create authentic furniture that is suitable for the need of Urban life. </p>
             </div>
-            <div>
-                <img src={''} alt='' />
-            </div>
-            <div>
-                <div className='flex justify-center flex-col lg:gap-8 lg:w-[550px] lg:h-[435px] '>
-                    <p className='text-[64px] font-bold text-[#1a1a1a] leading-[0.87]'>Handcrafted with care to make you feel at home</p>
-                    <p className='text-[20px] text-[#4D4D4D]'>Discover different collections of unique furniture available  to beautify your personal space and to make you feel comfortable.</p>
-                    <button className='bg-[#ec7d22] rounded-lg py-[15px] px-8 w-fit text-white text-base mt-3'>SHOP NOW</button>
+            <div className='flex items-center gap-[131px]'>
+                <img src={image} alt='' className='w-[554px] h-[640px]' />
+
+
+                <div>
+                    <div className='flex flex-col justify-center lg:gap-8 '>
+                        <p className='text-[48px] font-bold text-[#1a1a1a] leading-none'>QUALITY KEEPS DRIVING US FORWARD.</p>
+                        <p className='text-[20px] text-[#808080]'>We have more than 20 years of experience producing and delivering furniture nationwide. More tha ten million pieces of furniture have been delivered to businesses and families in Nigeria.</p>
+                    </div>
+                    <button className='mt-12 rounded-lg py-[15px] px-8 w-fit text-[#EC7D22] border border-[#ec7d22] text-base hover:scale-110 transition-all hover:text-white hover:bg-[#ec7d22]'>LEARN MORE</button>
                 </div>
             </div>
 
