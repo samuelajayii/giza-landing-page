@@ -24,7 +24,7 @@ const Footer = () => {
                     <li className='cursor-pointer hover:underline w-fit'>Bathroom</li>
                     <li className='cursor-pointer hover:underline w-fit'>Bedroom</li>
                     <li className='cursor-pointer hover:underline w-fit'>Dining room</li>
-                    <li className='curs w-fitor-pointer hover:underline w-fit'>Living room</li>
+                    <li className='cursor-pointer hover:underline w-fit'>Living room</li>
                 </ul>
             </div>
             <div>
